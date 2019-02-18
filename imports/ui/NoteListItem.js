@@ -6,7 +6,7 @@ const NoteListItem = (props) => {
   return (
     <div>
       <h5>{props.note.title || 'Unitled note'}</h5>
-      <p>{moment(props.note.updateAt).format('DD/MM/YYYY')}</p>
+      <p>{moment(props.note.updatedAt).format('DD/MM/YYYY')}</p>
     </div>
   );
 };
