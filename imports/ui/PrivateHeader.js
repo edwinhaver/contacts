@@ -38,4 +38,3 @@ export default createContainer(() => {
     handleLogout: () => Accounts.logout()
   };
 }, PrivateHeader);
-// export default PrivateHeader;
