@@ -21,7 +21,6 @@ export class NoteList extends React.Component {
         <NoteListHeader/>
         {this.renderNoteListItems()}
         {this.props.notes.length === 0 ? <NoteListEmptyItem/> : undefined}
-        NoteList { this.props.notes.length }
       </div>
     )
   }
