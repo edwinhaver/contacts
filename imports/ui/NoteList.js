@@ -17,7 +17,7 @@ export class NoteList extends React.Component {
   }
   render() {
     return (
-      <div>
+      <div className="item-list">
         <NoteListHeader/>
         {this.renderNoteListItems()}
         {this.props.notes.length === 0 ? <NoteListEmptyItem/> : undefined}
