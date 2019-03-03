@@ -1,6 +1,6 @@
-# Notes App
+# Phonebook App
 
-This is a notes application built on Meteor.
+This is a company phonebook. It can be used to publish to all staff and manage all employee contact details
 
 ## Authors
 
